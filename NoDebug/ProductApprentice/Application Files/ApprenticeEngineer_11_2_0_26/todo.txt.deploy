@@ -1,0 +1,31 @@
+﻿
+
+I’ve reviewed items in my original list as well as checked the suppression of backtraces. Backtrace suppression seems good.
+
+
+Item 6b is the most concerning - Viewer in the context menu for a shape/page is still available to the user where modifications can be entered.
+
+
+The Create Master Shape shortcut and menu items are still present and working, though this is not a big issue. 
+I would prefer they not be there or were disabled, but users can still accomplish the same thing through the stencil interface.
+
+As for the rest of the list, see comments below. The other items that are still present don’t seem to trigger any concerning action, so they are ok as is as long as they are disabled.
+
+
+X: 1.       Debug menu items – Removed
+X: 2.       Tools menu items – Menu still there, and can open runtime stats (blank). 
+3.       Icon shortcut menu items:
+	a.       Context… -Shortcut still there, but doesn’t appear to do anything.
+	b.       Model Tree… -Shortcut still there, but doesn’t appear to do anything.`
+	c.       Tasks… -Shortcut still there, but doesn’t appear to do anything.
+	d.       Validate… -Shortcut still there, but doesn’t appear to do anything.
+	e.       Script Editor… -Removed
+	f.        Create Master Shape -Shortcut still there
+	g.       Create Alternate Views -Shortcut still there, but doesn’t appear to do anything.
+4.       Create Alternate Views in Edit menu -Option still there, but doesn’t appear to do anything.
+5.       Create Master Shape in Diagram menu -Option still there
+6.       Right click menu items for shape or page (context menu)
+a.       Inspector… - Removed
+
+
+X: b.       Viewer… - Option still in menu
